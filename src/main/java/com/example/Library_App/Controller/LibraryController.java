@@ -27,5 +27,11 @@ public class LibraryController {
         return  "Welcome to View all books";
     }
 
+    @PostMapping("/edit")
+    public String EditBooks(){
+        return "Welcome to edit books";
+
+    }
+
 
 }
