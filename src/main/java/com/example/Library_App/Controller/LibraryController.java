@@ -21,4 +21,11 @@ public class LibraryController {
     public  String SearchBooks(){
         return  "Welcome to search books";
     }
+
+    @GetMapping("/view")
+    public  String ViewAllBooks(){
+        return  "Welcome to View all books";
+    }
+
+
 }
