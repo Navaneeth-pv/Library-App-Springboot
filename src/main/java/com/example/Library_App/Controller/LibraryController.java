@@ -33,5 +33,10 @@ public class LibraryController {
 
     }
 
+    @PostMapping("/delete")
+    public  String DeleteBooks(){
+        return  "Welcome to delete books";
+    }
+
 
 }
